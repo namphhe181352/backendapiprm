@@ -1,0 +1,15 @@
+C:\Users\ADMIN\backendapiprm\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+C:\Users\ADMIN\backendapiprm\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+C:\Users\ADMIN\backendapiprm\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\ADMIN\backendapiprm\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.sourcelink.json
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+C:\Users\ADMIN\backendapiprm\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

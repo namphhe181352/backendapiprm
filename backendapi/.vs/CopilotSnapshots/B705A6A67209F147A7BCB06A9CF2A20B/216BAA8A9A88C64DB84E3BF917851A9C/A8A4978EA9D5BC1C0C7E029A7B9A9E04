@@ -1,0 +1,358 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
+namespace BusinessObjects.Models;
+
+public partial class Prm393RestaurantContext : DbContext
+{
+    public Prm393RestaurantContext()
+    {
+    }
+
+    public Prm393RestaurantContext(DbContextOptions<Prm393RestaurantContext> options)
+        : base(options)
+    {
+    }
+
+    public virtual DbSet<Area> Areas { get; set; }
+
+    public virtual DbSet<Category> Categories { get; set; }
+
+    public virtual DbSet<DiningTable> DiningTables { get; set; }
+
+    public virtual DbSet<Invoice> Invoices { get; set; }
+
+    public virtual DbSet<MenuItem> MenuItems { get; set; }
+
+    public virtual DbSet<Order> Orders { get; set; }
+
+    public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+
+    public virtual DbSet<Reservation> Reservations { get; set; }
+
+    public virtual DbSet<User> Users { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Area>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__areas__3213E83FC1DF087E");
+
+            entity.ToTable("areas");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Description)
+                .HasMaxLength(255)
+                .HasColumnName("description");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValue(true)
+                .HasColumnName("is_active");
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .HasColumnName("name");
+        });
+
+        modelBuilder.Entity<Category>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__categori__3213E83FB3298CD1");
+
+            entity.ToTable("categories");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.DisplayOrder).HasColumnName("display_order");
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("image_url");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValue(true)
+                .HasColumnName("is_active");
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .HasColumnName("name");
+        });
+
+        modelBuilder.Entity<DiningTable>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__dining_t__3213E83F6E1169A6");
+
+            entity.ToTable("dining_tables");
+
+            entity.HasIndex(e => e.AreaId, "idx_table_area");
+
+            entity.HasIndex(e => e.Status, "idx_table_status");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.AreaId).HasColumnName("area_id");
+            entity.Property(e => e.Capacity)
+                .HasDefaultValue(4)
+                .HasColumnName("capacity");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValue(true)
+                .HasColumnName("is_active");
+            entity.Property(e => e.Name)
+                .HasMaxLength(50)
+                .HasColumnName("name");
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .HasDefaultValue("available")
+                .HasColumnName("status");
+
+            entity.HasOne(d => d.Area).WithMany(p => p.DiningTables)
+                .HasForeignKey(d => d.AreaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_table_area");
+        });
+
+        modelBuilder.Entity<Invoice>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__invoices__3213E83F80EC9FB5");
+
+            entity.ToTable("invoices");
+
+            entity.HasIndex(e => e.OrderId, "UQ__invoices__465962289590112E").IsUnique();
+
+            entity.HasIndex(e => e.OrderId, "idx_invoice_order");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.DiscountAmount)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("discount_amount");
+            entity.Property(e => e.FinalTotal)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("final_total");
+            entity.Property(e => e.OrderId).HasColumnName("order_id");
+            entity.Property(e => e.PaidAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("paid_at");
+            entity.Property(e => e.PaymentMethod)
+                .HasMaxLength(20)
+                .HasDefaultValue("cash")
+                .HasColumnName("payment_method");
+            entity.Property(e => e.StaffId).HasColumnName("staff_id");
+            entity.Property(e => e.TaxAmount)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("tax_amount");
+            entity.Property(e => e.TipAmount)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("tip_amount");
+
+            entity.HasOne(d => d.Order).WithOne(p => p.Invoice)
+                .HasForeignKey<Invoice>(d => d.OrderId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_invoice_order");
+
+            entity.HasOne(d => d.Staff).WithMany(p => p.Invoices)
+                .HasForeignKey(d => d.StaffId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_invoice_staff");
+        });
+
+        modelBuilder.Entity<MenuItem>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__menu_ite__3213E83F6A3B30E3");
+
+            entity.ToTable("menu_items");
+
+            entity.HasIndex(e => e.IsAvailable, "idx_menuitem_available");
+
+            entity.HasIndex(e => e.CategoryId, "idx_menuitem_cat");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CategoryId).HasColumnName("category_id");
+            entity.Property(e => e.Description).HasColumnName("description");
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("image_url");
+            entity.Property(e => e.IsAvailable)
+                .HasDefaultValue(true)
+                .HasColumnName("is_available");
+            entity.Property(e => e.Name)
+                .HasMaxLength(150)
+                .HasColumnName("name");
+            entity.Property(e => e.Price)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("price");
+
+            entity.HasOne(d => d.Category).WithMany(p => p.MenuItems)
+                .HasForeignKey(d => d.CategoryId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_menuitem_category");
+        });
+
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__orders__3213E83F603FAA4E");
+
+            entity.ToTable("orders", tb => tb.HasTrigger("trg_UpdateOrdersTimestamp"));
+
+            entity.HasIndex(e => e.ReservationId, "UQ__orders__31384C28B588806D").IsUnique();
+
+            entity.HasIndex(e => e.ReservationId, "idx_order_reservation");
+
+            entity.HasIndex(e => e.Status, "idx_order_status");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.Note).HasColumnName("note");
+            entity.Property(e => e.ReservationId).HasColumnName("reservation_id");
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .HasDefaultValue("ordering")
+                .HasColumnName("status");
+            entity.Property(e => e.TotalAmount)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("total_amount");
+            entity.Property(e => e.UpdatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+
+            entity.HasOne(d => d.Reservation).WithOne(p => p.Order)
+                .HasForeignKey<Order>(d => d.ReservationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_order_reservation");
+        });
+
+        modelBuilder.Entity<OrderDetail>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__order_de__3213E83F57996A5A");
+
+            entity.ToTable("order_details");
+
+            entity.HasIndex(e => e.OrderId, "idx_orderdetail_order");
+
+            entity.HasIndex(e => e.ItemStatus, "idx_orderdetail_status");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.ItemStatus)
+                .HasMaxLength(20)
+                .HasDefaultValue("pending")
+                .HasColumnName("item_status");
+            entity.Property(e => e.MenuItemId).HasColumnName("menu_item_id");
+            entity.Property(e => e.Note).HasColumnName("note");
+            entity.Property(e => e.OrderId).HasColumnName("order_id");
+            entity.Property(e => e.Quantity)
+                .HasDefaultValue(1)
+                .HasColumnName("quantity");
+            entity.Property(e => e.UnitPrice)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("unit_price");
+
+            entity.HasOne(d => d.MenuItem).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.MenuItemId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_orderdetail_menuitem");
+
+            entity.HasOne(d => d.Order).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.OrderId)
+                .HasConstraintName("fk_orderdetail_order");
+        });
+
+        modelBuilder.Entity<Reservation>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__reservat__3213E83F7D7B3E70");
+
+            entity.ToTable("reservations");
+
+            entity.HasIndex(e => e.StaffId, "idx_reservation_staff");
+
+            entity.HasIndex(e => e.Status, "idx_reservation_status");
+
+            entity.HasIndex(e => e.TableId, "idx_reservation_table");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CheckInTime)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("check_in_time");
+            entity.Property(e => e.CheckOutTime)
+                .HasColumnType("datetime")
+                .HasColumnName("check_out_time");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.CustomerName)
+                .HasMaxLength(100)
+                .HasColumnName("customer_name");
+            entity.Property(e => e.CustomerPhone)
+                .HasMaxLength(15)
+                .IsUnicode(false)
+                .HasColumnName("customer_phone");
+            entity.Property(e => e.GuestCount)
+                .HasDefaultValue(1)
+                .HasColumnName("guest_count");
+            entity.Property(e => e.Note).HasColumnName("note");
+            entity.Property(e => e.StaffId).HasColumnName("staff_id");
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .HasDefaultValue("occupied")
+                .HasColumnName("status");
+            entity.Property(e => e.TableId).HasColumnName("table_id");
+
+            entity.HasOne(d => d.Staff).WithMany(p => p.Reservations)
+                .HasForeignKey(d => d.StaffId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_reservation_staff");
+
+            entity.HasOne(d => d.Table).WithMany(p => p.Reservations)
+                .HasForeignKey(d => d.TableId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_reservation_table");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__users__3213E83FD10E4A8F");
+
+            entity.ToTable("users");
+
+            entity.HasIndex(e => e.Email, "UQ__users__AB6E6164AABAE574").IsUnique();
+
+            entity.HasIndex(e => e.Username, "UQ__users__F3DBC5720F53D4BA").IsUnique();
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("email");
+            entity.Property(e => e.FullName)
+                .HasMaxLength(100)
+                .HasColumnName("full_name");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValue(true)
+                .HasColumnName("is_active");
+            entity.Property(e => e.PasswordHash)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("password_hash");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(15)
+                .IsUnicode(false)
+                .HasColumnName("phone");
+            entity.Property(e => e.Role)
+                .HasMaxLength(20)
+                .HasDefaultValue("staff")
+                .HasColumnName("role");
+            entity.Property(e => e.Username)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("username");
+        });
+
+        OnModelCreatingPartial(modelBuilder);
+    }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+}

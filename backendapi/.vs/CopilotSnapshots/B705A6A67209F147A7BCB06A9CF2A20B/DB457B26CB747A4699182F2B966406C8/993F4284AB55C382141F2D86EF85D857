@@ -1,0 +1,18 @@
+﻿{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "AllowedHosts": "*",
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=35.197.129.18,1433;Database=prm393_restaurant;User Id=admin;Password=Admin@123456;TrustServerCertificate=True;Encrypt=True;"
+    },
+    "Jwt": {
+        "Key": "your_super_secret_key_at_least_32_chars",
+        "Issuer": "backendapi",
+        "Audience": "backendapi-client",
+        "ExpiryHours": 8
+    }
+}
