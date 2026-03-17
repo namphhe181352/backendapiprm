@@ -158,3 +158,4 @@ C:\Users\ADMIN\backendapiprm\backendapi\obj\Debug\net8.0\refint\backendapi.dll
 C:\Users\ADMIN\backendapiprm\backendapi\obj\Debug\net8.0\backendapi.pdb
 C:\Users\ADMIN\backendapiprm\backendapi\obj\Debug\net8.0\backendapi.genruntimeconfig.cache
 C:\Users\ADMIN\backendapiprm\backendapi\obj\Debug\net8.0\ref\backendapi.dll
+C:\Users\ADMIN\backendapiprm\backendapi\bin\Debug\net8.0\postman\restaurant-backend.postman_collection.json
