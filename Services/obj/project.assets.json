@@ -2972,8 +2972,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\BusinessObjects.csproj"
+            "c:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "c:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\BusinessObjects.csproj"
             },
             "c:\\Users\\ADMIN\\backendapiprm\\Repositories\\Repositories.csproj": {
               "projectPath": "c:\\Users\\ADMIN\\backendapiprm\\Repositories\\Repositories.csproj"
