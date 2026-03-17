@@ -1,0 +1,22 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace BusinessObjects.DTOs.Reservations;
+
+public class ReservationCheckInRequest
+{
+    [Required]
+    public int TableId { get; set; }
+
+    [Required]
+    [MaxLength(100)]
+    public string CustomerName { get; set; } = string.Empty;
+
+    [Required]
+    [MaxLength(15)]
+    public string CustomerPhone { get; set; } = string.Empty;
+
+    [Range(1, 100)]
+    public int GuestCount { get; set; } = 1;
+
+    public string? Note { get; set; }
+}

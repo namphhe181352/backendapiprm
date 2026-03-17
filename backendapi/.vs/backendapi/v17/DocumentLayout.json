@@ -1,0 +1,1707 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\docs\\api-endpoints.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:docs\\api-endpoints.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A9F807-1909-4026-9B44-32DEA3E3D3A8}|..\\DataAccessLayers\\DataAccessLayers.csproj|c:\\users\\admin\\backendapiprm\\dataaccesslayers\\dataaccesslayers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A9F807-1909-4026-9B44-32DEA3E3D3A8}|..\\DataAccessLayers\\DataAccessLayers.csproj|c:\\users\\admin\\backendapiprm\\dataaccesslayers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\auth\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\areas\\arearequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\areas\\areadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\tables\\tablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\tables\\tabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\tables\\tablequeryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\categories\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\categories\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\menuitems\\menuitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\menuitems\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\menuitems\\menuitemqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\iarearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\imenuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\menuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\common\\toggleactiverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\tables\\changetablestatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\menuitems\\toggleavailabilityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\iareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\areaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\areascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\reservations\\reservationcheckinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\reservations\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\reservations\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\reservations\\reservationqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\orders\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\orders\\addorderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\orders\\updateorderitemstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\invoices\\checkoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\invoices\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\invoices\\invoicequeryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\revenuestatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\topitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\staffqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\staffrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\staffupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\admin\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\notifications\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\settings\\mysettingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\settings\\updatemysettingsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F05864-53A9-4EC6-8725-1988AA2E3B1C}|..\\Repositories\\Repositories.csproj|c:\\users\\admin\\backendapiprm\\repositories\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4BB743-BFD6-4A4F-AA3E-508AB3A0BF48}|..\\Services\\Services.csproj|c:\\users\\admin\\backendapiprm\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\adminstatisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\adminstatisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\adminstaffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\adminstaffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|c:\\users\\admin\\backendapiprm\\backendapi\\postman\\restaurant-backend.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F663793-C699-4D2C-B069-4F7857BCD372}|backendapi.csproj|solutionrelative:postman\\restaurant-backend.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\orders\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854C4F7A-B6E1-40B1-9C84-0D8E823EA898}|..\\BusinessObjects\\BusinessObjects.csproj|c:\\users\\admin\\backendapiprm\\businessobjects\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A9F807-1909-4026-9B44-32DEA3E3D3A8}|..\\DataAccessLayers\\DataAccessLayers.csproj|c:\\users\\admin\\backendapiprm\\dataaccesslayers\\prm393restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IJwtService.cs",
+              "RelativeToolTip": "..\\Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:01.793Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Prm393RestaurantContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\Prm393RestaurantContext.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayers\\Prm393RestaurantContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\Prm393RestaurantContext.cs",
+              "RelativeToolTip": "..\\DataAccessLayers\\Prm393RestaurantContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:37:00.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:37:00.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Orders\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\OrderDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Orders\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:37:00.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "restaurant-backend.postman_collection.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\postman\\restaurant-backend.postman_collection.json",
+              "RelativeDocumentMoniker": "postman\\restaurant-backend.postman_collection.json",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\postman\\restaurant-backend.postman_collection.json",
+              "RelativeToolTip": "postman\\restaurant-backend.postman_collection.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T15:34:21.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "api-endpoints.md",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\docs\\api-endpoints.md",
+              "RelativeDocumentMoniker": "docs\\api-endpoints.md",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\docs\\api-endpoints.md",
+              "RelativeToolTip": "docs\\api-endpoints.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-16T15:34:04.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UpdateOrderItemStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\UpdateOrderItemStatusRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Orders\\UpdateOrderItemStatusRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\UpdateOrderItemStatusRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Orders\\UpdateOrderItemStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:27.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AddOrderItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\AddOrderItemRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Orders\\AddOrderItemRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\AddOrderItemRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Orders\\AddOrderItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:20.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:53.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAccessLayers.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\DataAccessLayers.csproj",
+              "RelativeDocumentMoniker": "..\\DataAccessLayers\\DataAccessLayers.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\DataAccessLayers.csproj",
+              "RelativeToolTip": "..\\DataAccessLayers\\DataAccessLayers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T14:45:20.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CheckoutRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\CheckoutRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Invoices\\CheckoutRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\CheckoutRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Invoices\\CheckoutRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:35.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Invoices\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\InvoiceDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Invoices\\InvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:43.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "TopItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\TopItemDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\TopItemDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\TopItemDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\TopItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:19:13.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:46.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "AdminStaffController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminStaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminStaffController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminStaffController.cs",
+              "RelativeToolTip": "Controllers\\AdminStaffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:38.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "AdminStatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminStatisticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminStatisticsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminStatisticsController.cs",
+              "RelativeToolTip": "Controllers\\AdminStatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:26.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:30:12.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:27.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:18.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:11.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:27:02.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\NotificationService.cs",
+              "RelativeToolTip": "..\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:26:46.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\SettingsService.cs",
+              "RelativeToolTip": "..\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:26:40.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ISettingsService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ISettingsService.cs",
+              "RelativeToolTip": "..\\Services\\ISettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:26:32.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\INotificationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\INotificationService.cs",
+              "RelativeToolTip": "..\\Services\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:23:56.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AdminService.cs",
+              "RelativeToolTip": "..\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:23:52.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAdminService.cs",
+              "RelativeToolTip": "..\\Services\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:23:29.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "..\\Services\\InvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:23:18.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IInvoiceService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IInvoiceService.cs",
+              "RelativeToolTip": "..\\Services\\IInvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:23:05.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:22:57.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IOrderService.cs",
+              "RelativeToolTip": "..\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:22:44.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ReservationService.cs",
+              "RelativeToolTip": "..\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:22:38.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IReservationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IReservationService.cs",
+              "RelativeToolTip": "..\\Services\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:22:23.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\InvoiceRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\InvoiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:22:07.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IInvoiceRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IInvoiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:55.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:51.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:42.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:34.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IReservationRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:22.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UpdateMySettingsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Settings\\UpdateMySettingsRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Settings\\UpdateMySettingsRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Settings\\UpdateMySettingsRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Settings\\UpdateMySettingsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:21:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MySettingsDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Settings\\MySettingsDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Settings\\MySettingsDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Settings\\MySettingsDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Settings\\MySettingsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:20:28.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Notifications\\NotificationDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Notifications\\NotificationDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Notifications\\NotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:20:21.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "StaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\StaffDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\StaffDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:20:13.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "StaffUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffUpdateRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\StaffUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffUpdateRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\StaffUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:20:07.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "StaffRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\StaffRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\StaffRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:19:59.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "StaffQueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffQueryParams.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\StaffQueryParams.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\StaffQueryParams.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\StaffQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:19:20.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RevenueStatisticsDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\RevenueStatisticsDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\RevenueStatisticsDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\RevenueStatisticsDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\RevenueStatisticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:19:01.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DashboardSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\DashboardSummaryDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Admin\\DashboardSummaryDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Admin\\DashboardSummaryDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Admin\\DashboardSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:52.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "InvoiceQueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\InvoiceQueryParams.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Invoices\\InvoiceQueryParams.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Invoices\\InvoiceQueryParams.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Invoices\\InvoiceQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:48.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuItemQueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemQueryParams.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemQueryParams.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemQueryParams.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:31.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAreaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IAreaRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IAreaRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IAreaRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IAreaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:40.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AreaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\AreaRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\AreaRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\AreaRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\AreaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:40.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:40.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:40.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Orders\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Orders\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Orders\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:18:08.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ReservationQueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationQueryParams.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationQueryParams.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationQueryParams.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:17:51.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:17:46.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ReservationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:17:41.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ReservationCheckInRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationCheckInRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationCheckInRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Reservations\\ReservationCheckInRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Reservations\\ReservationCheckInRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:17:36.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "backendapi.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\backendapi.csproj",
+              "RelativeDocumentMoniker": "backendapi.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\backendapi.csproj",
+              "RelativeToolTip": "backendapi.csproj",
+              "ViewState": "AgIAABkAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T15:13:11.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAABRwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:12:36.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MenuItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\MenuItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuItemsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\MenuItemsController.cs",
+              "RelativeToolTip": "Controllers\\MenuItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:12:08.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:11:53.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TablesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\TablesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TablesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\TablesController.cs",
+              "RelativeToolTip": "Controllers\\TablesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:11:40.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AreasController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AreasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AreasController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AreasController.cs",
+              "RelativeToolTip": "Controllers\\AreasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:11:25.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:10:27.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:10:17.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\MenuItemService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\MenuItemService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\MenuItemService.cs",
+              "RelativeToolTip": "..\\Services\\MenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:10:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IMenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IMenuItemService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IMenuItemService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IMenuItemService.cs",
+              "RelativeToolTip": "..\\Services\\IMenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:09:45.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\CategoryService.cs",
+              "RelativeToolTip": "..\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:09:39.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "..\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:09:28.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\TableService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\TableService.cs",
+              "RelativeToolTip": "..\\Services\\TableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:09:14.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ITableService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ITableService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\ITableService.cs",
+              "RelativeToolTip": "..\\Services\\ITableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:09:01.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AreaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AreaService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\AreaService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AreaService.cs",
+              "RelativeToolTip": "..\\Services\\AreaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:46.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAreaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAreaService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IAreaService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAreaService.cs",
+              "RelativeToolTip": "..\\Services\\IAreaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:32.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:26.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\IAuthService.cs",
+              "RelativeToolTip": "..\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:14.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:08:10.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ToggleAvailabilityRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\ToggleAvailabilityRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\MenuItems\\ToggleAvailabilityRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\ToggleAvailabilityRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\MenuItems\\ToggleAvailabilityRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:52.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChangeTableStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\ChangeTableStatusRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Tables\\ChangeTableStatusRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\ChangeTableStatusRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Tables\\ChangeTableStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:49.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ToggleActiveRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Common\\ToggleActiveRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Common\\ToggleActiveRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Common\\ToggleActiveRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Common\\ToggleActiveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:46.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MenuItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\MenuItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\MenuItemRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\MenuItemRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\MenuItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:18.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IMenuItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IMenuItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IMenuItemRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IMenuItemRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IMenuItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:11.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\TableRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\TableRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\TableRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\TableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:07:08.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ITableRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\ITableRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\ITableRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\ITableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:54.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:41.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:41.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:41.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:06:41.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenuItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:19.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:19.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Auth\\ChangePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Auth\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:24.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Auth\\UserDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\UserDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Auth\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:30.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Auth\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Auth\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:33.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AreaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Areas\\AreaRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Areas\\AreaRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Areas\\AreaRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Areas\\AreaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:39.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AreaDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Areas\\AreaDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Areas\\AreaDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Areas\\AreaDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Areas\\AreaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:43.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TableRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Tables\\TableRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Tables\\TableRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:47.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MenuItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\MenuItems\\MenuItemRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\MenuItems\\MenuItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:13.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Categories\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Categories\\CategoryDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Categories\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:09.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Categories\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Categories\\CategoryRequest.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Categories\\CategoryRequest.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Categories\\CategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:04.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TableQueryParams.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableQueryParams.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Tables\\TableQueryParams.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableQueryParams.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Tables\\TableQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:03:00.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TableDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableDto.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\DTOs\\Tables\\TableDto.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\DTOs\\Tables\\TableDto.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\DTOs\\Tables\\TableDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T15:02:50.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAABRwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T14:35:18.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "backendapi.http",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\backendapi.http",
+              "RelativeDocumentMoniker": "backendapi.http",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\backendapi.http",
+              "RelativeToolTip": "backendapi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-16T14:35:17.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Services\\Class1.cs",
+              "RelativeToolTip": "..\\Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:35:09.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Class1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\Repositories\\Class1.cs",
+              "RelativeToolTip": "..\\Repositories\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:34:58.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayers\\Class1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\DataAccessLayers\\Class1.cs",
+              "RelativeToolTip": "..\\DataAccessLayers\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:34:43.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\BusinessObjects\\Class1.cs",
+              "RelativeToolTip": "..\\BusinessObjects\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:34:22.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\backendapiprm\\backendapi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T14:33:58.581Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
