@@ -45,6 +45,11 @@ public class ReservationService : IReservationService
             throw new InvalidOperationException("Check-in only allowed for active and available tables.");
         }
 
+        if (request.CheckInTime == default)
+        {
+            throw new InvalidOperationException("Check-in time is required.");
+        }
+
         var reservation = new Reservation
         {
             TableId = request.TableId,
@@ -52,6 +57,7 @@ public class ReservationService : IReservationService
             CustomerName = request.CustomerName,
             CustomerPhone = request.CustomerPhone,
             GuestCount = request.GuestCount,
+            CheckInTime = request.CheckInTime,
             Note = request.Note
         };
 

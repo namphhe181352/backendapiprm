@@ -20,6 +20,17 @@ namespace backendapi
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFlutterWeb", policy =>
+                {
+                    policy
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
+
             builder.Services.AddDbContext<Prm393RestaurantContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -110,6 +121,10 @@ namespace backendapi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowFlutterWeb");
+
+
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -1,7 +1,6 @@
 using BusinessObjects.DTOs;
 using BusinessObjects.DTOs.Reservations;
 using BusinessObjects.Models;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repositories;
@@ -75,21 +74,29 @@ public class ReservationRepository : GenericRepository<Reservation>, IReservatio
 
     public async Task<int> CreateWithOrderByStoredProcedureAsync(Reservation reservation)
     {
-        var tableId = new SqlParameter("@TableId", reservation.TableId);
-        var staffId = new SqlParameter("@StaffId", reservation.StaffId);
-        var customerName = new SqlParameter("@CustomerName", reservation.CustomerName);
-        var customerPhone = new SqlParameter("@CustomerPhone", reservation.CustomerPhone);
-        var guestCount = new SqlParameter("@GuestCount", reservation.GuestCount);
-        var note = new SqlParameter("@Note", (object?)reservation.Note ?? DBNull.Value);
-        var reservationId = new SqlParameter("@ReservationId", System.Data.SqlDbType.Int)
+        await using var transaction = await _context.Database.BeginTransactionAsync();
+
+        reservation.Status = string.IsNullOrWhiteSpace(reservation.Status) ? "occupied" : reservation.Status;
+        await _dbSet.AddAsync(reservation);
+        await _context.SaveChangesAsync();
+
+        var order = new Order
         {
-            Direction = System.Data.ParameterDirection.Output
+            ReservationId = reservation.Id,
+            TotalAmount = 0,
+            Status = "ordering"
         };
 
-        await _context.Database.ExecuteSqlRawAsync(
-            "EXEC sp_CreateReservationWithOrder @TableId, @StaffId, @CustomerName, @CustomerPhone, @GuestCount, @Note, @ReservationId OUTPUT",
-            tableId, staffId, customerName, customerPhone, guestCount, note, reservationId);
+        await _context.Set<Order>().AddAsync(order);
 
-        return (int)(reservationId.Value == DBNull.Value ? 0 : reservationId.Value);
+        var table = await _context.Set<DiningTable>().FirstOrDefaultAsync(x => x.Id == reservation.TableId)
+            ?? throw new InvalidOperationException("Table does not exist.");
+
+        table.Status = "occupied";
+
+        await _context.SaveChangesAsync();
+        await transaction.CommitAsync();
+
+        return reservation.Id;
     }
 }
