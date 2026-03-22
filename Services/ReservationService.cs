@@ -10,11 +10,16 @@ public class ReservationService : IReservationService
 {
     private readonly IReservationRepository _reservationRepository;
     private readonly ITableRepository _tableRepository;
+    private readonly INotificationService _notificationService;
 
-    public ReservationService(IReservationRepository reservationRepository, ITableRepository tableRepository)
+    public ReservationService(
+        IReservationRepository reservationRepository,
+        ITableRepository tableRepository,
+        INotificationService notificationService)
     {
         _reservationRepository = reservationRepository;
         _tableRepository = tableRepository;
+        _notificationService = notificationService;
     }
 
     public async Task<PagedResult<ReservationDto>> GetFilteredAsync(ReservationQueryParams queryParams)
@@ -63,6 +68,13 @@ public class ReservationService : IReservationService
 
         var created = await _reservationRepository.GetDetailByIdAsync(reservationId)
             ?? throw new KeyNotFoundException("Created reservation not found.");
+
+        await _notificationService.CreateOrderIncomingNotificationAsync(
+            created.Id,
+            created.Order?.Id,
+            created.Table?.Name ?? created.TableId.ToString(),
+            created.CustomerName,
+            created.GuestCount);
 
         return MapReservation(created);
     }
