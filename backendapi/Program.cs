@@ -19,6 +19,16 @@ namespace backendapi
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("FrontendPolicy", policy =>
+                {
+                    policy
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
 
             builder.Services.AddCors(options =>
             {
@@ -120,6 +130,7 @@ namespace backendapi
                 app.UseSwaggerUI();
             }
 
+            app.UseCors("FrontendPolicy");
             app.UseHttpsRedirection();
             app.UseCors("AllowFlutterWeb");
             app.UseAuthentication();
