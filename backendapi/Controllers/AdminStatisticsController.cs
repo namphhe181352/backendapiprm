@@ -31,11 +31,4 @@ public class AdminStatisticsController : ControllerBase
         var result = await _adminService.GetTopItemsAsync(from, to, limit);
         return Ok(ApiResponse<IEnumerable<TopItemDto>>.Ok(result));
     }
-
-    [HttpGet("overview")]
-    public async Task<ActionResult<ApiResponse<StatisticsOverviewDto>>> Overview([FromQuery] string period = "today", [FromQuery] int topLimit = 5)
-    {
-        var result = await _adminService.GetStatisticsOverviewAsync(period, topLimit);
-        return Ok(ApiResponse<StatisticsOverviewDto>.Ok(result));
-    }
 }

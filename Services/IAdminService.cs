@@ -8,7 +8,6 @@ public interface IAdminService
     Task<DashboardSummaryDto> GetDashboardSummaryAsync();
     Task<RevenueStatisticsDto> GetRevenueStatisticsAsync(string period);
     Task<IEnumerable<TopItemDto>> GetTopItemsAsync(DateTime? from, DateTime? to, int limit);
-    Task<StatisticsOverviewDto> GetStatisticsOverviewAsync(string period, int topLimit);
     Task<PagedResult<StaffDto>> GetStaffAsync(StaffQueryParams queryParams);
     Task<StaffDto?> GetStaffByIdAsync(int id);
     Task<StaffDto> CreateStaffAsync(StaffRequest request);
