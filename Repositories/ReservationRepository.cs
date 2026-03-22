@@ -86,10 +86,51 @@ public class ReservationRepository : GenericRepository<Reservation>, IReservatio
             Direction = System.Data.ParameterDirection.Output
         };
 
-        await _context.Database.ExecuteSqlRawAsync(
-            "EXEC sp_CreateReservationWithOrder @TableId, @StaffId, @CustomerName, @CustomerPhone, @GuestCount, @Note, @ReservationId OUTPUT",
-            tableId, staffId, customerName, customerPhone, guestCount, note, reservationId);
+        try
+        {
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC sp_CreateReservationWithOrder @TableId, @StaffId, @CustomerName, @CustomerPhone, @GuestCount, @Note, @ReservationId OUTPUT",
+                tableId, staffId, customerName, customerPhone, guestCount, note, reservationId);
 
-        return (int)(reservationId.Value == DBNull.Value ? 0 : reservationId.Value);
+            return (int)(reservationId.Value == DBNull.Value ? 0 : reservationId.Value);
+        }
+        catch (SqlException)
+        {
+            // Fallback path in case stored procedure is missing or fails in some environments.
+            return await CreateWithOrderWithoutStoredProcedureAsync(reservation);
+        }
+    }
+
+    private async Task<int> CreateWithOrderWithoutStoredProcedureAsync(Reservation reservation)
+    {
+        await using var transaction = await _context.Database.BeginTransactionAsync();
+
+        var table = await _context.DiningTables.FirstOrDefaultAsync(x => x.Id == reservation.TableId);
+        if (table is null)
+        {
+            throw new KeyNotFoundException("Table does not exist.");
+        }
+
+        table.Status = "occupied";
+
+        reservation.Status = string.IsNullOrWhiteSpace(reservation.Status) ? "occupied" : reservation.Status;
+        _context.Reservations.Add(reservation);
+        await _context.SaveChangesAsync();
+
+        var order = new Order
+        {
+            ReservationId = reservation.Id,
+            TotalAmount = 0,
+            Status = "ordering",
+            Note = null,
+            CreatedAt = DateTime.UtcNow,
+            UpdatedAt = DateTime.UtcNow
+        };
+
+        _context.Orders.Add(order);
+        await _context.SaveChangesAsync();
+
+        await transaction.CommitAsync();
+        return reservation.Id;
     }
 }

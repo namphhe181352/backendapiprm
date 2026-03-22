@@ -82,6 +82,10 @@ public class OrderService : IOrderService
         TotalAmount = order.TotalAmount,
         Status = order.Status,
         Note = order.Note,
+        InvoiceId = order.Invoice?.Id,
+        InvoicePaymentMethod = order.Invoice?.PaymentMethod,
+        InvoiceFinalTotal = order.Invoice?.FinalTotal,
+        InvoicePaidAt = order.Invoice?.PaidAt,
         CreatedAt = order.CreatedAt,
         UpdatedAt = order.UpdatedAt
     };
